@@ -1,3 +1,7 @@
+# Dataset Description
+
+The datasets contain information about a grocery shop sales.
+
 ```python
 import pandas as pd
 from matplotlib import pyplot as plt
