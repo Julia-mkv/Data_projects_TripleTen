@@ -1,3 +1,4 @@
+<p style="text-align: center;">
 # Dataset Description
 
 The dataset `movies_and_shows.csv` contains information about various movies and shows.
@@ -93,3 +94,4 @@ def categorize_imdb_score(title):
             return 'Low'
     else:
         return 'Title not found'
+</p>
