@@ -1,9 +1,8 @@
-<p style="text-align: center;">
-
 # Dataset Description
 
 The dataset `movies_and_shows.csv` contains information about various movies and shows.
 
+```python
 import pandas as pd
 df = pd.read_csv('/datasets/movies_and_shows.csv')
 
@@ -95,4 +94,3 @@ def categorize_imdb_score(title):
             return 'Low'
     else:
         return 'Title not found'
-</p>
