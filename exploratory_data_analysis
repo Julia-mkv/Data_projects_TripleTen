@@ -278,7 +278,7 @@ top_purchasing_customers
 
 ### What are the top 20 items that people put in their carts first (display the product IDs, product names, and number of times they were the first item added to the cart)?
 top20_first_items = (
-    order_products[order_products['add_to_cart_order'] == 1]  # Фильтрация
+    order_products[order_products['add_to_cart_order'] == 1]
     .merge(products, on='product_id', how='left')
     .groupby(['product_id', 'product_name'])
     .agg(total_first=('order_id', 'count'))
