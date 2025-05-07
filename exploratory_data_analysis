@@ -1,8 +1,8 @@
+```python
 import pandas as pd
 from matplotlib import pyplot as plt
 
 ## Import data
-```python
 orders = pd.read_csv('/Users/juliatimonina/Downloads/instacart_orders.csv', sep = ';')
 products = pd.read_csv('/Users/juliatimonina/Downloads/products.csv', sep = ';')
 order_products = pd.read_csv('/Users/juliatimonina/Downloads/order_products.csv', sep = ';')
